@@ -1,0 +1,1574 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-27T13:31:43.036Z",
+        "before": [
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.Hooks.beforeScenario(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "FaceBook user login validation",
+        "description": "",
+        "id": "facebook-user-login-validation;facebook-user-login-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1409000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.Hooks.afterScenario(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9121000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user launches the application \"FaceBook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user launches the application",
+                  "offset": 0
+                },
+                {
+                  "val": "FaceBook",
+                  "offset": 31
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.launchesApplication(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 10000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1021000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on page \"FaceBookPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user is on page",
+                  "offset": 0
+                },
+                {
+                  "val": "FaceBookPage",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.onPage(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user validates FaceBook Page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user validates FaceBook Page title",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.validateFaceBookPageTitle(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user validates FB Create account message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user validates FB Create account message",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.validateFBAppointmentMsg(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[com.customexceptions.PageObjectNotFoundException: \"emailOrPhone1\" not found in page \"FaceBookPage.java\"]\u003e but was:\u003c[sample@gmail.com]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.stepdefinitions.Steps1.entersDataInTextbox(Steps1.java:95)\r\n\tat ✽.user enters data in the textbox \"emailOrPhone1\" as \"sample@gmail.com\"(///D:/CucuUIAutomationFramework/src/test/java/Features/FaceBookLogin/LoginFaceBookFeature.feature:10)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user enters data in the textbox \"emailOrPhone1\" as \"sample@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters data in the textbox",
+                  "offset": 0
+                },
+                {
+                  "val": "emailOrPhone1",
+                  "offset": 33
+                },
+                {
+                  "val": "sample@gmail.com",
+                  "offset": 52
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.entersDataInTextbox(String,String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 972000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user enters data in the textbox \"password1\" as \"sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters data in the textbox",
+                  "offset": 0
+                },
+                {
+                  "val": "password1",
+                  "offset": 33
+                },
+                {
+                  "val": "sample",
+                  "offset": 48
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.entersDataInTextbox(String,String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "Step2 class test statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Step2 class test statement",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps2.launchesApplication(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "user closes the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user closes the browser",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.closesBrowser(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-27T13:31:55.997Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.Hooks.beforeScenario(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "FaceBook user login validation Failure",
+        "description": "",
+        "id": "facebook-user-login-validation;facebook-user-login-validation-failure",
+        "after": [
+          {
+            "result": {
+              "duration": 387000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.Hooks.afterScenario(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9158000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "user launches the application \"FaceBook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user launches the application",
+                  "offset": 0
+                },
+                {
+                  "val": "FaceBook",
+                  "offset": 31
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.launchesApplication(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1030000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "user is on page \"FaceBookPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user is on page",
+                  "offset": 0
+                },
+                {
+                  "val": "FaceBookPage",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.onPage(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "user validates FaceBook Page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user validates FaceBook Page title",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.validateFaceBookPageTitle(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "user validates FB Create account message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user validates FB Create account message",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.validateFBAppointmentMsg(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "user enters data in the textbox \"emailOrPhone\" as \"leelachams@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters data in the textbox",
+                  "offset": 0
+                },
+                {
+                  "val": "emailOrPhone",
+                  "offset": 33
+                },
+                {
+                  "val": "leelachams@gmail.com",
+                  "offset": 51
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.entersDataInTextbox(String,String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "user enters data in the textbox \"password\" as \"sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters data in the textbox",
+                  "offset": 0
+                },
+                {
+                  "val": "password",
+                  "offset": 33
+                },
+                {
+                  "val": "sample",
+                  "offset": 47
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.entersDataInTextbox(String,String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[java.lang.NullPointerException]\u003e but was:\u003c[100]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.stepdefinitions.Steps2.entersData(Steps2.java:53)\r\n\tat ✽.user enters my data(///D:/CucuUIAutomationFramework/src/test/java/Features/FaceBookLogin/LoginFaceBookFeature.feature:27)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "user enters my data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters my data",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps2.entersData(String,DataTable) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1153000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "xpath",
+                  "data"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "100"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "Step2 class test statement",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Step2 class test statement",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps2.launchesApplication(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "user closes the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user closes the browser",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.closesBrowser(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook user login validation",
+    "description": "",
+    "id": "facebook-user-login-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/FaceBookLogin/LoginFaceBookFeature.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-27T13:32:08.377Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.Hooks.beforeScenario(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Google Search validation",
+        "description": "",
+        "id": "google-search-validation;google-search-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.Hooks.afterScenario(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8005000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user launches the application \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user launches the application",
+                  "offset": 0
+                },
+                {
+                  "val": "Google",
+                  "offset": 31
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.launchesApplication(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1033000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on page \"GooglePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user is on page",
+                  "offset": 0
+                },
+                {
+                  "val": "GooglePage",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.onPage(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3333000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user clicks the button \"gmailLink\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user clicks the button",
+                  "offset": 0
+                },
+                {
+                  "val": "gmailLink",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.clicksButton(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1032000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user is on page \"GmailPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user is on page",
+                  "offset": 0
+                },
+                {
+                  "val": "GmailPage",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.onPage(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1033000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user waits for page to load",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user waits for page to load",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.userWaitsForPage(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3678000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user clicks the button \"signIn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user clicks the button",
+                  "offset": 0
+                },
+                {
+                  "val": "signIn",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.clicksButton(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027identifierId\u0027]\"}\n  ]\u003e but was:\u003c[leelacham009@gmail.com]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.stepdefinitions.Steps1.entersDataInTextbox(Steps1.java:95)\r\n\tat ✽.user enters data in the textbox \"email\" as \"leelacham009@gmail.com\"(///D:/CucuUIAutomationFramework/src/test/java/Features/GoogleLogin/LoginGmail.feature:12)\r\n",
+              "duration": 23000000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user enters data in the textbox \"email\" as \"leelacham009@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters data in the textbox",
+                  "offset": 0
+                },
+                {
+                  "val": "email",
+                  "offset": 33
+                },
+                {
+                  "val": "leelacham009@gmail.com",
+                  "offset": 44
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.entersDataInTextbox(String,String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1069000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user clicks the button \"next\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user clicks the button",
+                  "offset": 0
+                },
+                {
+                  "val": "next",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.clicksButton(String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "user enters data in the textbox \"password\" as \"sample\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user enters data in the textbox",
+                  "offset": 0
+                },
+                {
+                  "val": "password",
+                  "offset": 33
+                },
+                {
+                  "val": "sample",
+                  "offset": 47
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.entersDataInTextbox(String,String,String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.beforeStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "user closes the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user closes the browser",
+                  "offset": 0
+                }
+              ],
+              "location": "com.stepdefinitions.Steps1.closesBrowser(String) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.stepdefinitions.Hooks.afterStep(Scenario) in file:/D:/CucuUIAutomationFramework/target/test-classes/"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search validation",
+    "description": "",
+    "id": "google-search-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/GoogleLogin/LoginGmail.feature",
+    "tags": []
+  }
+]

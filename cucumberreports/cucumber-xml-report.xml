@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="45.066">
+<testcase classname="FaceBook user login validation" name="FaceBook user login validation" time="12.917">
+<failure message="expected:&lt;[com.customexceptions.PageObjectNotFoundException: &quot;emailOrPhone1&quot; not found in page &quot;FaceBookPage.java&quot;]&gt; but was:&lt;[sample@gmail.com]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given user launches the application "FaceBook"..............................passed
+Then user waits for page to load............................................passed
+When user is on page "FaceBookPage".........................................passed
+Then user validates FaceBook Page title.....................................passed
+Then user validates FB Create account message...............................passed
+When user enters data in the textbox "emailOrPhone1" as "sample@gmail.com"..failed
+When user enters data in the textbox "password1" as "sample"................skipped
+Then user waits for page to load............................................skipped
+Then user waits for page to load............................................skipped
+Then Step2 class test statement.............................................skipped
+Then user closes the browser................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[com.customexceptions.PageObjectNotFoundException: "emailOrPhone1" not found in page "FaceBookPage.java"]> but was:<[sample@gmail.com]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.stepdefinitions.Steps1.entersDataInTextbox(Steps1.java:95)
+	at ✽.user enters data in the textbox "emailOrPhone1" as "sample@gmail.com"(///D:/CucuUIAutomationFramework/src/test/java/Features/FaceBookLogin/LoginFaceBookFeature.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="FaceBook user login validation" name="FaceBook user login validation Failure" time="12.333">
+<failure message="expected:&lt;[java.lang.NullPointerException]&gt; but was:&lt;[100]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given user launches the application "FaceBook"..............................passed
+Then user waits for page to load............................................passed
+When user is on page "FaceBookPage".........................................passed
+Then user validates FaceBook Page title.....................................passed
+Then user validates FB Create account message...............................passed
+When user enters data in the textbox "emailOrPhone" as "leelachams@gmail.com".passed
+When user enters data in the textbox "password" as "sample".................passed
+When user enters my data....................................................failed
+Then user waits for page to load............................................skipped
+Then user waits for page to load............................................skipped
+Then Step2 class test statement.............................................skipped
+Then user closes the browser................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[java.lang.NullPointerException]> but was:<[100]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.stepdefinitions.Steps2.entersData(Steps2.java:53)
+	at ✽.user enters my data(///D:/CucuUIAutomationFramework/src/test/java/Features/FaceBookLogin/LoginFaceBookFeature.feature:27)
+]]></failure>
+</testcase>
+<testcase classname="Google Search validation" name="Google Search validation" time="19.393">
+<failure message="expected:&lt;[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='identifierId']&quot;}&#10;  ]&gt; but was:&lt;[leelacham009@gmail.com]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given user launches the application "Google"................................passed
+Then user waits for page to load............................................passed
+When user is on page "GooglePage"...........................................passed
+When user clicks the button "gmailLink".....................................passed
+Then user waits for page to load............................................passed
+When user is on page "GmailPage"............................................passed
+Then user waits for page to load............................................passed
+Then user clicks the button "signIn"........................................passed
+When user enters data in the textbox "email" as "leelacham009@gmail.com"....failed
+Then user clicks the button "next"..........................................skipped
+When user enters data in the textbox "password" as "sample".................skipped
+Then user closes the browser................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  ]> but was:<[leelacham009@gmail.com]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.stepdefinitions.Steps1.entersDataInTextbox(Steps1.java:95)
+	at ✽.user enters data in the textbox "email" as "leelacham009@gmail.com"(///D:/CucuUIAutomationFramework/src/test/java/Features/GoogleLogin/LoginGmail.feature:12)
+]]></failure>
+</testcase>
+</testsuite>
