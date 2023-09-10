@@ -4,7 +4,7 @@
  # CucuUIAutomationFramework
 1. Execution starts at runner class which is annotated with @RunWith(Cucumber.class)
 2. The runner class must have a path in @CucumberOptions for Steps and hooks classes. Its given through "glue"
-3. Steps and Hooks classes must have public constructors so that Cucumber can create objects for these classes
+3. Steps and Hooks classes get loaded by Cucumber.
    Make sure that Step and Hook classes are singleton classes so that only single object of each class get created 
 4. Cucumber creates objects for Steps and Hook classes.
 5. Initializing ExtenReport for each .feature file:
