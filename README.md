@@ -5,7 +5,7 @@ A robust, enterprise-grade Web UI automation framework built from scratch using 
 Architectural Design & Design Patterns:
 To maintain enterprise standards, this framework avoids anti-patterns (like hardcoded waits or tightly coupled tests) and incorporates:
 
-* Page Object Model (POM): Strict separation of test scripts, page locators, and business actions.
+* Custom Page Object Model (POM): Strict separation of test scripts, page locators, and business actions.
 * Driver Factory Pattern: Thread-safe, centralized WebDriver initialization enabling seamless cross-browser testing and parallel runs.
 * Explicit Wait Framework: Custom wrapper utilities to eliminate flaky tests and race conditions.
 
